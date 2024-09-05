@@ -1,0 +1,13 @@
+.signup-container {
+    background-image: url('../../public/images/museumbg.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Full viewport height */
+  }
+  
+  .signup-box {
+    max-width: 500px;
+    max-height: 350px;
+    width: 100%;
+  }
+  

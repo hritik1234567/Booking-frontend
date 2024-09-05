@@ -1,0 +1,33 @@
+/* dashboard.css */
+.chatbot-card {
+    max-height: 500px; /* Adjust as needed */
+    overflow-y: auto; /* Enable vertical scrolling */
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .date-picker {
+    width: 100%;
+  }
+  
+  .check-availability-btn,
+  .book-now-btn {
+    margin-top: 10px;
+  }
+  
+  .booking-form {
+    margin-top: 20px;
+  }
+  .chatbot-steps-container {
+    max-height: 400px;  /* Set max height */
+    overflow-y: scroll; /* Enable vertical scrolling */
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .chatbot-step {
+    margin-bottom: 20px;
+  }
+    

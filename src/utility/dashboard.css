@@ -1,0 +1,81 @@
+.dashboard {
+    background-image: url('https://wallpapers.com/images/featured/museum-background-i46ank5l1sk9bubq.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    color: white;
+    font-family: Arial, sans-serif;
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+  
+  .logo {
+    height: 50px;
+    margin-right: 20px;
+  }
+  
+  .content {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .cards {
+    display: flex;
+    gap: 20px;
+    max-width: 1200px;
+    width: 100%;
+  }
+  
+  .card {
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    padding: 20px;
+    width: 100%;
+    max-width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .city-card {
+    flex: 1;
+  }
+  
+  .museum-card {
+    flex: 2;
+  }
+  
+  .chatbot-card {
+    flex: 1;
+  }
+  
+  .city-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .city-item label {
+    margin-left: 8px;
+  }
+  .museum-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  .museum-item label {
+    margin-left: 8px;
+  }
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 8px;
+  }
+  
