@@ -44,7 +44,7 @@ function ChatbotCard({ selectedCity, selectedMuseum }) {
 
     try {
       // Fetch the client token from your server
-      const response = await fetch(`http://localhost:8000/api/check-availability`); // Update with your API endpoint
+      const response = await fetch(`https://booking-backend-4.onrender.com/api/check-availability`); // Update with your API endpoint
       const res = await response.json(); // Assuming response is a JSON object with a clientToken property
       
       setTicketsAvailable(res.remainingTickets);
@@ -174,7 +174,7 @@ function ChatbotCard({ selectedCity, selectedMuseum }) {
               id="idFile" 
               onChange={handleFileChange}
             />
-            <p>Total Payment: ${calculateTotalAmount()}</p>
+            <p>Total Payment: ₹{calculateTotalAmount()}</p>
             <button 
               onClick={handleBooking} 
               disabled={!idFile} 
@@ -195,7 +195,7 @@ function ChatbotCard({ selectedCity, selectedMuseum }) {
 
   return (
     <div className="card chatbot-card">
-      <h2>Chatbot</h2>
+      <h2>Ticket Booking</h2>
       {availabilityChecked ? renderStep() : (
         <>
           <p>1. Select the date of your visit.</p>

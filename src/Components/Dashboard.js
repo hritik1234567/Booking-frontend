@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import '../utility/dashboard.css'; // Custom CSS for styling
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Chatbot from './Chatbot';
+import mueseumlogo from '../img/mueseumheader.jpeg';
 // Sample data
 const data = {
     "cities": [
@@ -337,7 +338,7 @@ const data = {
     return (
       <div className="dashboard">
         <div className="header">
-          <img src="https://static.vecteezy.com/system/resources/thumbnails/006/020/567/small/golden-luxury-house-with-pillar-for-bank-court-law-or-museum-logo-design-vector.jpg" alt="Logo" className="logo" />
+          <img src={mueseumlogo} alt="Logo" className="logo" />
           <h2>GalleryGateway</h2>
         </div>
         

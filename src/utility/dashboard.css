@@ -1,12 +1,12 @@
 .dashboard {
-    background-image: url('https://wallpapers.com/images/featured/museum-background-i46ank5l1sk9bubq.jpg');
+    background-image: url('../../public/images/mueseumback.jpeg');
     background-size: cover;
     background-position: center;
     min-height: 100vh;
     color: white;
     font-family: Arial, sans-serif;
   }
-  
+
   .header {
     display: flex;
     align-items: center;
@@ -17,6 +17,7 @@
   .logo {
     height: 50px;
     margin-right: 20px;
+  
   }
   
   .content {

@@ -19,7 +19,7 @@ const Payment = ({
     const getClientToken = async () => {
       try {
         // Fetch the client token from your server
-        const response = await fetch(`http://localhost:8000/api//braintree/token`); // Update with your API endpoint
+        const response = await fetch(`https://booking-backend-4.onrender.com/api//braintree/token`); // Update with your API endpoint
         const { clientToken } = await response.json(); // Assuming response is a JSON object with a clientToken property
         setClientToken(clientToken);
       } catch (error) {
@@ -37,7 +37,7 @@ const Payment = ({
         const { nonce } = await instance.requestPaymentMethod();
         
         // Send the nonce and payment details to your server
-        const paymentResponse = await fetch(`http://localhost:8000/api//braintree/payment`, {
+        const paymentResponse = await fetch(`https://booking-backend-4.onrender.com/api//braintree/payment`, {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
